@@ -1,8 +1,8 @@
 % Estos comandos generan y grafican valores de velocidad
-% y aceleraciÛn en un intervalo especificado por el usuario.
+% y aceleraci√≥n en un intervalo especificado por el usuario.
 %
 star_time = input('Tec1ee tiempo inicial (en segundos): ');
-end_time = input('Tec1ee tiempo final (m·x. 120 segundos): ');
+end_time = input('Tec1ee tiempo final (m√°x. 120 segundos): ');
 %
 time_incr = (end_time - star_time)/99;
 time = star_time:time_incr:end_time;
